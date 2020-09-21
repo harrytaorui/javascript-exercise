@@ -1,10 +1,5 @@
 function chooseMultiplesOfThree(collection) {
-  const result = [];
-  collection.forEach(number => {
-    if (number % 3 === 0) {
-      result.push(number);
-    }
-  });
+  const result = collection.filter(value => value % 3 === 0);
   return result;
 }
 
