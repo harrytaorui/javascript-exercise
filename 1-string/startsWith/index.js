@@ -1,6 +1,6 @@
 export default function collectCarNumberCount(collection) {
   let count = 0;
-  collection.forEach(function(car) {
+  collection.forEach(car => {
     if (car.startsWith('粤A')) {
       count += 1;
     }
